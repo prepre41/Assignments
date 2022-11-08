@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css"
+</head>
+<body>
+       <!-- Title -->
+       <div class="container">
+         <div class="title">
+           Registration Form
+         </div>
+         <div class="content">
+         
+
+    
+       <!-- Form -->
+        <form>
+          <div class="user-details">
+       <!-- Frist name input Place -->
+            <div class="input_wrap">
+             <label for="fname">First Name</label>
+             <input type="text" name="fname" id="fname" required>
+            </div>
+       
+       <!-- Last Name input place -->
+           <div class="input_wrap">
+             <label for="lname">Last Name</label>
+             <input type="text" name="lname" id="lname" required>
+           </div>
+         
+           <!--Phone number input place-->
+       <div class="input_wrap">
+         <label for="pnum">Phone Number</label>
+         <input type="tel" name="pnum" id="pnum" required> 
+       </div>
+
+       <!-- Email Id input Place -->
+        <div class="input_wrap">
+         <label for="email">Email Address</label>
+         <input type="email" name="email" id="email">
+        </div>
+       
+       
+       <!-- Gender Select box -->
+       <div class="input_wrap">
+         <label id="gen" for="gender">Gender</label>
+         <select id="gender">
+          <option value="Gender">Select Gender</option>
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+         </select>
+       </div>
+        
+      <!--Date of birth selection-->
+      <div class="input_wrap">
+        <label for=dob>Date of Birth</label>
+        <input type="date" name=dob id=dob max="2022-10-10" required>
+        </div>
+
+        <!--Fav color selector-->
+        <div class="input_wrap">
+            <label for="fav color">Favorite Color</label>
+            <input type="color" name="fav color" id="fav color" required>
+          </div>
+       
+       <!-- Submit button -->
+        <div class="input_wrap">
+            
+          <input id="btn" type="submit" value="Register Now" class="submit_btn">
+        </div>
+        <div>
+          <p id="log">Already have an account? <a href="login.html">Login </a></p>
+        </div>
+      </div>
+       </div>
+       </form>
+      </div>
+    </div>
+</body>
+</html>

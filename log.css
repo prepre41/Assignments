@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+  body{
+    background: linear-gradient(
+       105deg,
+       #EECDA3,
+       #EF629F
+   ); 
+   background-repeat: no-repeat; 
+   background-attachment: fixed;
+   align-items: center;
+   justify-content: center;
+   display: flex;
+   height: 700px;
+   padding: 10px;
+}
+.container{
+  max-width: 700px;
+  width: 70%;
+  background-color: #fff;
+  padding: 20px 30px;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+}
+.container .title::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 30px;
+  border-radius: 5px;
+  background: linear-gradient(135deg,#EECDA3,
+  #EF629F
+); 
+}
+.title{
+  font-size: 25px;
+  font-weight: 500;
+  position: relative;
+  color: #3a3a3a;
+  
+}
+   .hot label {
+        margin-bottom: 8px;
+        margin-top: 8px;
+        color: #333333;
+        display: block;
+        font-size: 18px;
+   }
+   input[type="email"]{
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border-radius: 5px;
+    border: 1.3px solid #9597a6;
+  }
+  input[type="text"]{
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border-radius: 5px;
+    border: 1.3px solid #9597a6;
+  }
+   /* Submit Button */
+   .submit_btn{
+    font-size:17px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+    width: 100%;
+    background: #da5767;
+    padding: 10px;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 30px;
+    color:white;
+  }
+  /* Button Hover effect */
+     .submit_btn:hover{
+    background: #f5233b;
+  }
+  #log{
+    margin-top: 8px;
+    text-align: center;
+    justify-content: center;
+  }
