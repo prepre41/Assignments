@@ -1,0 +1,156 @@
+@font-face {
+    font-family:'Lexend Deca';
+    src: url(LexendDeca-VariableFont_wght.ttf) format('truetype');
+};
+@font-face {
+    font-family:'Big Shoulders Display';
+    src: url(BigShouldersDisplay-VariableFont_wght.ttf) format('truetype');
+}
+*{
+    margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: hsl(0, 0%, 95%);
+  min-width: 375px; 
+  max-width: 1440px; 
+}
+a{
+    padding-left: 30px;
+    position: relative;
+}
+h3{
+    font-family: 'LexendDeca';
+    font-weight: 400;
+    font-size: 26px;
+}
+p{
+    font-family: 'BigShouldersDisplay';
+    font-size: 15px;
+    line-height: 1.4em;
+    font-weight: lighter;
+}
+.container{
+    height:600px;
+    display: flex;
+    background-color: hsl(0, 0%, 95%);
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+.items1{
+    width: 300px;
+    height: 400px;
+    background-color:  hsl(31, 77%, 52%);
+    padding-left: 40px;
+    padding-right: 40px;
+    border-top-left-radius: 10px;
+   border-bottom-left-radius: 10px;
+    
+}
+.items2{
+    width: 300px;
+    height: 400px;
+    background-color:  hsl(184, 100%, 22%);
+    padding-left: 40px;
+    padding-right: 40px;
+   
+}
+.items3{
+    width: 300px;
+    height: 400px;
+    background-color:  hsl(179, 100%, 13%);
+    padding-left: 40px;
+    padding-right: 40px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+   
+}
+img{
+    margin-top: 40px;
+}
+h3{
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+.items1 p{
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-top: 25px;
+   
+}
+.items2 p{
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-top: 25px;
+  
+}
+.items3 p{
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-top: 25px;
+    
+}
+.items1 h3{
+    color: hsl(0, 0%, 95%);
+}
+.items2 h3{
+    color: hsl(0, 0%, 95%);
+}
+.items3 h3{
+    color: hsl(0, 0%, 95%);
+}
+button{
+    cursor: pointer;
+    border: none;
+    background-color: hsl(0, 0%, 95%);
+}
+#bt1:active{
+    background-color:hsl(31, 77%, 52%);
+    color:hsl(0, 0%, 95%) ;
+    border: solid white 2px;
+}
+#bt2:active{
+    background-color:hsl(184, 100%, 22%);
+    color:hsl(0, 0%, 95%) ;
+    border: solid white 2px;
+}
+#bt3:active{
+    background-color:hsl(179, 100%, 13%);
+    color:hsl(0, 0%, 95%) ;
+    border: solid white 2px;
+}
+
+.items1 button{
+    
+    color: hsl(31, 77%, 52%);
+    border-radius: 30px;
+    height: 35px;
+    width: 120px;
+    margin-top: 74px;
+}
+.items2 button{
+  
+   color:hsl(184, 100%, 22%);
+   border-radius: 30px;
+   height: 35px;
+    width: 120px;
+    margin-top: 74px;
+}
+.items3 button{
+   
+    color: hsl(179, 100%, 13%);
+    border-radius: 30px;
+    height: 35px;
+    width: 120px;
+    margin-top: 74px;
+}
+@media screen and (min-width: 375px){
+    body {
+        color: red;
+    }  
+    }
+    @media screen and (max-width: 1440px){
+    body {
+        color: blue;
+    }    
+    }
